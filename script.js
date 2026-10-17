@@ -103,6 +103,7 @@ fetch('content.json', { cache: 'no-cache' })
     data = { work: [], ai: [], ...json };
     $('skills').innerHTML = (data.skills || []).map((s) => `<span>${esc(s)}</span>`).join('');
     $('aiTools').innerHTML = (data.aiTools || []).map((s) => `<span>${esc(s)}</span>`).join('');
+    if (data.heroPoster) $('heroVideo').poster = data.heroPoster;
     if (data.heroLoop) $('heroVideo').src = data.heroLoop;
     if (data.linkedin) $('linkedinLink').href = data.linkedin; else $('linkedinLink').hidden = true;
     renderFilters();
