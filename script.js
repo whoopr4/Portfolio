@@ -71,6 +71,7 @@ function driveId(url) {
 
 function openViewer(item) {
   const box = $('viewerMedia');
+  box.classList.toggle('tall', item.shape === 'tall');
   const yt = item.full && youTubeId(item.full);
   const gd = item.full && driveId(item.full);
   if (gd) box.innerHTML = `<iframe src="https://drive.google.com/file/d/${gd}/preview" allow="autoplay; fullscreen" allowfullscreen title="${esc(item.title)}"></iframe>`;
