@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jesse Richards – Multimedia Specialist</title>
+<meta name="description" content="Video production, motion graphics and AI-assisted design by Jesse Richards, Philadelphia, PA.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Doto:wght@600;800&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <a href="#top" class="brand"><span class="mono">JR</span><span>Jesse Richards</span></a>
+  <nav aria-label="Main">
+    <a href="#work">Work</a>
+    <a href="#ai">AI Lab</a>
+    <a href="#about">About</a>
+    <a href="#contact" class="accent-link">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section id="top" class="hero-wrap">
+  <div class="hero">
+    <video class="hero-video" id="heroVideo" autoplay muted loop playsinline preload="metadata"></video>
+    <div class="hero-card">
+      <div class="mono kicker"><span class="rec" aria-hidden="true"></span>NOW PLAYING – 2026 REEL</div>
+      <h1>Jesse Richards</h1>
+      <p>Multimedia Specialist – video, motion graphics and AI-assisted design.</p>
+      <div class="btns">
+        <a href="#work" class="btn btn-solid">View work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="track mono">
+    <span>VIDEO PRODUCTION ✦ MOTION GRAPHICS ✦ 2D ANIMATION ✦ TRADE SHOW DESIGN ✦ COLOR CORRECTION ✦ AI-ASSISTED CREATIVE ✦ BRAND IDENTITY ✦ ASSET MANAGEMENT ✦</span>
+    <span>VIDEO PRODUCTION ✦ MOTION GRAPHICS ✦ 2D ANIMATION ✦ TRADE SHOW DESIGN ✦ COLOR CORRECTION ✦ AI-ASSISTED CREATIVE ✦ BRAND IDENTITY ✦ ASSET MANAGEMENT ✦</span>
+  </div>
+</div>
+
+<section id="work" class="section">
+  <div class="section-head">
+    <div>
+      <div class="mono label">01 / SELECTED WORK</div>
+      <h2>Clips that move.</h2>
+    </div>
+    <p class="muted">Hover a window to bring it forward. Click any piece to watch it larger.</p>
+  </div>
+  <div class="filters" id="filters" role="group" aria-label="Filter work"></div>
+  <div class="grid" id="workGrid"></div>
+</section>
+
+<section id="ai" class="dark-panel">
+  <div class="ai-layout">
+    <div class="ai-intro">
+      <div class="mono label light">02 / AI LAB</div>
+      <h2>Experiments with generative tools.</h2>
+      <p>How I use AI in real production work – what it sped up, what I fixed by hand, and the tools behind each piece.</p>
+      <div class="chips" id="aiTools"></div>
+    </div>
+    <div class="ai-grid" id="aiGrid"></div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="about-top">
+    <img src="assets/headshot.jpg" alt="Jesse Richards" class="headshot" width="260" height="260">
+    <div>
+      <div class="mono label">03 / ABOUT</div>
+      <h2>Hi, I'm Jesse.</h2>
+      <p class="muted lead">I'm a multimedia specialist who takes projects from first shotlist to final delivery – planning shoots, directing on set, then editing, animating and designing for screen and print.</p>
+      <p class="muted lead">Today I lead product and social video plus trade show graphics at Streamlight, and I'm bringing AI tools into that workflow to make product content faster and bolder.</p>
+    </div>
+  </div>
+  <div class="stats">
+    <div class="card"><div class="mono big">5</div><div class="muted">companies, from pharma to apparel to lighting</div></div>
+    <div class="card"><div class="mono big">B.S.</div><div class="muted">Graphic Design &amp; Digital Animation, Philadelphia University</div></div>
+    <div class="card wide"><div class="mono small-label">WHERE I'VE WORKED</div>
+      <div class="employers"><span>Streamlight</span><span>Merck</span><span>SSG (nThrive)</span><span>Sanitize Systems</span><span>Yarrington Mills</span></div>
+    </div>
+  </div>
+  <div class="card toolkit"><div class="mono small-label">TOOLKIT</div><div class="chips" id="skills"></div></div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Let's make something.</h2>
+  <div class="btns">
+    <a href="mailto:jmrichardsanimation@gmail.com" class="btn btn-white">Email me</a>
+    <a href="#" class="btn btn-outline" id="linkedinLink">LinkedIn</a>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <span>© <span id="year"></span> Jesse Richards</span>
+  <span class="mono">PHILADELPHIA, PA</span>
+</footer>
+
+<dialog id="viewer" aria-label="Video viewer">
+  <button class="close" id="closeViewer" aria-label="Close">×</button>
+  <div class="viewer-media" id="viewerMedia"></div>
+  <div class="viewer-text"><h3 id="viewerTitle"></h3><p id="viewerDesc"></p></div>
+</dialog>
+
+<script src="script.js"></script>
+</body>
+</html>

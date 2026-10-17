@@ -1,0 +1,23 @@
+{
+  "heroLoop": "assets/loops/booth-walk-through.mp4",
+  "linkedin": "",
+  "skills": ["Premiere Pro", "After Effects", "DaVinci Resolve", "Photoshop", "Illustrator", "InDesign", "Character Animator", "Audition", "Blender", "Maya", "Color correction", "Audio mixing", "Storyboards", "Lighting", "Salsify DAM"],
+  "aiTools": ["Firefly", "Runway", "Midjourney", "Generative Fill", "ChatGPT / Claude"],
+  "work": [
+    { "title": "TLR-3X Product Video", "tag": "Product video", "description": "Product feature video for the TLR-3X weapon light.", "loop": "assets/loops/tlr-3x-final.mp4", "poster": "assets/loops/tlr-3x-final.jpg" },
+    { "title": "LiteBox Product Video", "tag": "Product video", "description": "Product walkthrough for the LiteBox portable light.", "loop": "assets/loops/litebox-1million-final.mp4", "poster": "assets/loops/litebox-1million-final.jpg" },
+    { "title": "Trade Show Booth Walk-Through", "tag": "Trade show", "description": "Walk-through of the booth on the show floor.", "loop": "assets/loops/booth-walk-through.mp4", "poster": "assets/loops/booth-walk-through.jpg" },
+    { "title": "Wedge SL Launch", "tag": "Social", "description": "Vertical launch teaser for the Wedge SL.", "loop": "assets/loops/wedge-sl-launch-silhouette-v2.mp4", "poster": "assets/loops/wedge-sl-launch-silhouette-v2.jpg", "shape": "tall" },
+    { "title": "TLR-1 HP-X ASMR", "tag": "Social", "description": "ASMR-style vertical product video for the TLR-1 HP-X.", "loop": "assets/loops/tlr-1-hp-x-asmr-final-v2.mp4", "poster": "assets/loops/tlr-1-hp-x-asmr-final-v2.jpg", "shape": "tall" },
+    { "title": "FDIC Sneak Peek", "tag": "Trade show", "description": "Pre-show sneak peek video for FDIC.", "loop": "assets/loops/aaron-fdic-sneak-peak-final.mp4", "poster": "assets/loops/aaron-fdic-sneak-peak-final.jpg" },
+    { "title": "Beyond the Bait Teaser", "tag": "Social", "description": "Vertical social teaser.", "loop": "assets/loops/beyond-the-bait-social-teaser.mp4", "poster": "assets/loops/beyond-the-bait-social-teaser.jpg", "shape": "tall" },
+    { "title": "BCRF Wedge XT", "tag": "Social", "description": "Vertical product video for the BCRF edition Wedge XT.", "loop": "assets/loops/bcrf-wedge-xt.mp4", "poster": "assets/loops/bcrf-wedge-xt.jpg", "shape": "tall" },
+    { "title": "Father's Day Giveaway", "tag": "Social", "description": "Vertical giveaway announcement for social.", "loop": "assets/loops/father-s-day-giveaway-final.mp4", "poster": "assets/loops/father-s-day-giveaway-final.jpg", "shape": "tall" },
+    { "title": "SHOT Show Lightbox", "tag": "Graphics", "description": "Large-format lightbox graphic for SHOT Show 2026.", "image": "assets/graphics/shot26-lightbox-final-preview.jpg", "fit": "contain" },
+    { "title": "Booth Column Wrap", "tag": "Graphics", "description": "Column wrap graphics for a trade show booth.", "image": "assets/graphics/column-wrap-v2.jpg", "fit": "contain" },
+    { "title": "Product Collage", "tag": "Graphics", "description": "8×8 product collage, 2026.", "image": "assets/graphics/collage8x8-2026-final-preview.jpg", "fit": "contain" },
+    { "title": "FDIC Stair Riser", "tag": "Graphics", "description": "Stair riser graphic directing attendees to the booth.", "image": "assets/graphics/fdic-stair-riser-graphic-large-outlined-preview.jpg", "fit": "contain" },
+    { "title": "Booth Display Screen", "tag": "Graphics", "description": "On-screen product menu for a booth display.", "image": "assets/graphics/20260813-104556.jpg" }
+  ],
+  "ai": []
+}
