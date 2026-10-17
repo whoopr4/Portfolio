@@ -62,10 +62,8 @@ h2{margin-top:10px;font-size:clamp(34px,5vw,52px);letter-spacing:-1.5px;line-hei
 .media.tall{aspect-ratio:4/5}
 .media.contain{background:#E7E4DC}
 .media.contain img{object-fit:contain;padding:14px}
-.win{border-radius:20px;background:rgba(255,255,255,.75);border:1px solid var(--line);box-shadow:0 10px 30px rgba(20,22,26,.08);overflow:hidden;animation:floatA 6s ease-in-out infinite;transition:box-shadow .3s ease,transform .3s ease;cursor:pointer;text-align:left;padding:0;font:inherit;color:inherit;width:100%}
-.win:nth-child(2n){animation-name:floatB;animation-duration:7s}
-.win:hover,.win:focus-visible{box-shadow:0 24px 60px rgba(20,22,26,.18);animation-play-state:paused}
-.win:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.win{border-radius:20px;background:rgba(255,255,255,.75);border:1px solid var(--line);box-shadow:0 10px 30px rgba(20,22,26,.08);overflow:hidden;transition:box-shadow .25s ease,border-color .25s ease;cursor:pointer;text-align:left;padding:0;font:inherit;color:inherit;width:100%}
+.win:hover,.win:focus-visible{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent),0 24px 60px rgba(20,22,26,.18);animation:floatA 3s ease-in-out infinite;outline:none}
 .bar{display:flex;align-items:center;gap:7px;padding:12px 16px;border-bottom:1px solid var(--line)}
 .dot{width:11px;height:11px;border-radius:50%;background:#D9D6CE}
 .dot.on{background:var(--accent)}
@@ -84,6 +82,7 @@ h2{margin-top:10px;font-size:clamp(34px,5vw,52px);letter-spacing:-1.5px;line-hei
 .ai-intro p{margin:18px 0 22px;font-size:17px;line-height:1.6;color:rgba(245,243,238,.75)}
 .ai-grid{flex:2 1 480px;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,230px),1fr));gap:20px}
 .dark-panel .win{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.12);box-shadow:none;color:var(--dark-ink)}
+.dark-panel .win:hover,.dark-panel .win:focus-visible{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent)}
 .dark-panel .win-text p{color:rgba(245,243,238,.7)}
 .dark-panel .tool{font-size:12px;letter-spacing:1px;color:var(--accent-light)}
 .chips{display:flex;flex-wrap:wrap;gap:8px}
@@ -112,14 +111,15 @@ h2{margin-top:10px;font-size:clamp(34px,5vw,52px);letter-spacing:-1.5px;line-hei
 /* Viewer */
 dialog{width:min(1100px,92vw);border:0;border-radius:20px;padding:0;background:#0E1014;color:#fff}
 dialog::backdrop{background:rgba(10,12,16,.75);backdrop-filter:blur(6px)}
-.viewer-media video,.viewer-media img,.viewer-media iframe{width:100%;max-height:75vh;display:block;background:#000;border:0}
+.viewer-media{background:#000;display:flex;justify-content:center;border-radius:20px 20px 0 0;overflow:hidden}
+.viewer-media video,.viewer-media iframe{width:100%;max-height:78vh;display:block;border:0}
+.viewer-media img{display:block;width:auto;height:auto;max-width:100%;max-height:78vh;object-fit:contain}
 .viewer-media iframe{aspect-ratio:16/9;height:auto}
 .viewer-text{padding:20px 24px 26px}
 .viewer-text p{margin:8px 0 0;color:rgba(255,255,255,.75);line-height:1.5}
 .close{position:absolute;top:10px;right:10px;z-index:2;width:44px;height:44px;border-radius:50%;border:0;background:rgba(0,0,0,.55);color:#fff;font-size:26px;cursor:pointer}
 
 @keyframes floatA{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
-@keyframes floatB{0%,100%{transform:translateY(-6px)}50%{transform:translateY(6px)}}
 @keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
-@media (prefers-reduced-motion:reduce){.win,.track,.rec{animation:none}html{scroll-behavior:auto}}
+@media (prefers-reduced-motion:reduce){.win,.win:hover,.track,.rec{animation:none}html{scroll-behavior:auto}}
