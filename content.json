@@ -29,30 +29,34 @@
     {
       "title": "COPS 40th Anniversary",
       "tag": "Motion",
-      "description": "Anniversary video for Concerns of Police Survivors, opening with an animated title sequence I designed.",
+      "description": "Anniversary video for Concerns of Police Survivors (C.O.P.S.), opening with an animated title sequence I designed.",
       "loop": "assets/loops/cops-40th-intro.mp4",
-      "poster": "assets/loops/cops-40th-intro.jpg"
+      "poster": "assets/loops/cops-40th-intro.jpg",
+      "full": "https://drive.google.com/file/d/1_CqPUotfkXoNWV-deAk3UbHVMoDtdgzu/view"
     },
     {
       "title": "TLR-3X Product Video",
       "tag": "Product video",
       "description": "Product feature video for the TLR-3X weapon light.",
       "loop": "assets/loops/tlr-3x-final.mp4",
-      "poster": "assets/loops/tlr-3x-final.jpg"
+      "poster": "assets/loops/tlr-3x-final.jpg",
+      "full": "https://drive.google.com/file/d/1ZUoCPtSMIxk5-fREn4bdK5LSHaGAOA7x/view"
     },
     {
       "title": "LiteBox Product Video",
       "tag": "Product video",
       "description": "Product walkthrough for the LiteBox portable light.",
       "loop": "assets/loops/litebox-1million-final.mp4",
-      "poster": "assets/loops/litebox-1million-final.jpg"
+      "poster": "assets/loops/litebox-1million-final.jpg",
+      "full": "https://drive.google.com/file/d/1BLmw4z2-5JE3SDiwJN1sn5vNuR_ct5zD/view"
     },
     {
       "title": "Trade Show Booth Walk-Through",
       "tag": "Trade show",
       "description": "Walk-through of the booth on the show floor.",
       "loop": "assets/loops/booth-walk-through.mp4",
-      "poster": "assets/loops/booth-walk-through.jpg"
+      "poster": "assets/loops/booth-walk-through.jpg",
+      "full": "https://drive.google.com/file/d/1Zi69rS2rzQQgnYSx3tL93ntmOOVbIcK6/view"
     },
     {
       "title": "Wedge SL Launch",
@@ -60,7 +64,8 @@
       "description": "Vertical launch teaser for the Wedge SL.",
       "loop": "assets/loops/wedge-sl-launch-silhouette-v2.mp4",
       "poster": "assets/loops/wedge-sl-launch-silhouette-v2.jpg",
-      "shape": "tall"
+      "shape": "tall",
+      "full": "https://drive.google.com/file/d/1ehlRtzBfp3vHDydwfVSLbN2PDz_4SCkH/view"
     },
     {
       "title": "TLR-1 HP-X ASMR",
@@ -68,14 +73,16 @@
       "description": "ASMR-style vertical product video for the TLR-1 HP-X.",
       "loop": "assets/loops/tlr-1-hp-x-asmr-final-v2.mp4",
       "poster": "assets/loops/tlr-1-hp-x-asmr-final-v2.jpg",
-      "shape": "tall"
+      "shape": "tall",
+      "full": "https://drive.google.com/file/d/1ijYIwjXPTsegWSqDLrv0ERcB8uzuwt5g/view"
     },
     {
       "title": "FDIC Sneak Peek",
       "tag": "Trade show",
       "description": "Pre-show sneak peek video for FDIC.",
       "loop": "assets/loops/aaron-fdic-sneak-peak-final.mp4",
-      "poster": "assets/loops/aaron-fdic-sneak-peak-final.jpg"
+      "poster": "assets/loops/aaron-fdic-sneak-peak-final.jpg",
+      "full": "https://drive.google.com/file/d/1UYYwd_A3GjlEQizm00Hd1a2m3-kHzp3B/view"
     },
     {
       "title": "Beyond the Bait Teaser",
@@ -83,7 +90,8 @@
       "description": "Vertical social teaser.",
       "loop": "assets/loops/beyond-the-bait-social-teaser.mp4",
       "poster": "assets/loops/beyond-the-bait-social-teaser.jpg",
-      "shape": "tall"
+      "shape": "tall",
+      "full": "https://drive.google.com/file/d/1ffApw3rdVOy24Eg0qeopXJFUduevBSSp/view"
     },
     {
       "title": "BCRF Wedge XT",
@@ -91,7 +99,8 @@
       "description": "Vertical product video for the BCRF edition Wedge XT.",
       "loop": "assets/loops/bcrf-wedge-xt.mp4",
       "poster": "assets/loops/bcrf-wedge-xt.jpg",
-      "shape": "tall"
+      "shape": "tall",
+      "full": "https://drive.google.com/file/d/1BGh16W8d6xpGibgakzJSiAvJcXwokRXB/view"
     },
     {
       "title": "Father's Day Giveaway",
@@ -99,7 +108,8 @@
       "description": "Vertical giveaway announcement for social.",
       "loop": "assets/loops/father-s-day-giveaway-final.mp4",
       "poster": "assets/loops/father-s-day-giveaway-final.jpg",
-      "shape": "tall"
+      "shape": "tall",
+      "full": "https://drive.google.com/file/d/1DzZ4MD5rdfckc7FSNgjxhmU8GQYhIJ7l/view"
     },
     {
       "title": "SHOT Show Lightbox",
