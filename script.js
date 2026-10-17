@@ -64,10 +64,17 @@ function youTubeId(url) {
   return m && m[1];
 }
 
+function driveId(url) {
+  const m = String(url).match(/drive\.google\.com\/(?:file\/d\/|open\?id=|uc\?.*id=)([\w-]{20,})/);
+  return m && m[1];
+}
+
 function openViewer(item) {
   const box = $('viewerMedia');
   const yt = item.full && youTubeId(item.full);
-  if (yt) box.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${yt}?autoplay=1&rel=0" allow="autoplay; fullscreen" allowfullscreen title="${esc(item.title)}"></iframe>`;
+  const gd = item.full && driveId(item.full);
+  if (gd) box.innerHTML = `<iframe src="https://drive.google.com/file/d/${gd}/preview" allow="autoplay; fullscreen" allowfullscreen title="${esc(item.title)}"></iframe>`;
+  else if (yt) box.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${yt}?autoplay=1&rel=0" allow="autoplay; fullscreen" allowfullscreen title="${esc(item.title)}"></iframe>`;
   else if (item.full && /\.(mp4|webm)(\?|$)/i.test(item.full)) box.innerHTML = `<video src="${esc(item.full)}" controls autoplay playsinline></video>`;
   else if (item.loop) box.innerHTML = `<video src="${esc(item.loop)}" autoplay muted loop playsinline></video>`;
   else if (item.image) box.innerHTML = `<img src="${esc(item.image)}" alt="${esc(item.title)}">`;
