@@ -82,10 +82,18 @@ function openViewer(item) {
   else box.innerHTML = '';
   $('viewerTitle').textContent = item.title || '';
   $('viewerDesc').textContent = item.description || '';
-  $('viewer').showModal();
+  const dlg = $('viewer');
+  dlg.showModal();
+  // Go true full screen where the browser allows it (most Android/desktop browsers)
+  dlg.requestFullscreen?.().catch(() => {});
 }
 
-function closeViewer() { $('viewer').close(); }
+function closeViewer() {
+  if (document.fullscreenElement) document.exitFullscreen().catch(() => {});
+  $('viewer').close();
+}
+// Leaving full screen (Esc or the phone's back gesture) also closes the viewer
+document.addEventListener('fullscreenchange', () => { if (!document.fullscreenElement && $('viewer').open) $('viewer').close(); });
 $('closeViewer').addEventListener('click', closeViewer);
 $('viewer').addEventListener('close', () => { $('viewerMedia').innerHTML = ''; });
 $('viewer').addEventListener('click', (e) => { if (e.target === $('viewer')) closeViewer(); });

@@ -109,19 +109,14 @@ h2{margin-top:10px;font-size:clamp(34px,5vw,52px);letter-spacing:-1.5px;line-hei
 .footer .mono{letter-spacing:2px}
 
 /* Viewer */
-:root{--viewer-chrome:118px}
-dialog{width:fit-content;max-width:min(1100px,96vw);max-height:96dvh;margin:auto;border:0;border-radius:20px;padding:0;background:#0E1014;color:#fff;overflow:auto}
-dialog::backdrop{background:rgba(10,12,16,.8);backdrop-filter:blur(6px)}
-.viewer-media{background:#000;display:flex;justify-content:center}
-/* Size media to fit the screen height so player controls are never cut off */
-.viewer-media iframe{display:block;border:0;height:auto;aspect-ratio:16/9;width:min(1100px,96vw,calc((96dvh - var(--viewer-chrome)) * 16 / 9))}
-.viewer-media.tall iframe{aspect-ratio:9/16;width:min(96vw,calc((96dvh - var(--viewer-chrome)) * 9 / 16))}
-.viewer-media video,.viewer-media img{display:block;width:auto;height:auto;max-width:min(1100px,96vw);max-height:calc(96dvh - var(--viewer-chrome));object-fit:contain}
-.viewer-text{padding:16px 24px 20px;max-width:min(1100px,96vw)}
-.viewer-text h3{padding-right:40px}
-.viewer-text p{margin:6px 0 0;color:rgba(255,255,255,.75);line-height:1.5}
-@media (max-height:520px){:root{--viewer-chrome:52px}.viewer-text{padding:10px 16px}.viewer-text p{display:none}.viewer-text h3{font-size:16px}}
-.close{position:absolute;top:10px;right:10px;z-index:2;width:44px;height:44px;border-radius:50%;border:0;background:rgba(0,0,0,.55);color:#fff;font-size:26px;cursor:pointer}
+/* Full-screen viewer */
+dialog{position:fixed;inset:0;width:100vw;height:100vh;height:100dvh;max-width:none;max-height:none;margin:0;border:0;border-radius:0;padding:0;background:#000;color:#fff;overflow:hidden}
+dialog::backdrop{background:#000}
+.viewer-media{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:#000}
+.viewer-media iframe{display:block;width:100%;height:100%;border:0}
+.viewer-media video,.viewer-media img{display:block;width:100%;height:100%;object-fit:contain}
+.viewer-text{display:none}
+.close{position:absolute;top:max(12px,env(safe-area-inset-top));right:max(12px,env(safe-area-inset-right));z-index:2;width:44px;height:44px;border-radius:50%;border:0;background:rgba(0,0,0,.55);color:#fff;font-size:26px;cursor:pointer}
 
 @keyframes floatA{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
 @keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
