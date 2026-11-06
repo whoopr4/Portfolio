@@ -112,6 +112,23 @@
       "full": "https://drive.google.com/file/d/1DzZ4MD5rdfckc7FSNgjxhmU8GQYhIJ7l/view"
     },
     {
+      "title": "Vaccine Market Overview",
+      "tag": "Motion",
+      "description": "Explainer pairing an on-camera presenter with animated motion graphics.",
+      "loop": "assets/loops/jeff-ko-11-6-19-vaccine-market.mp4",
+      "poster": "assets/loops/jeff-ko-11-6-19-vaccine-market.jpg",
+      "badge": "PREVIEW ONLY",
+      "contact": "This is a preview. Contact me to see the full video."
+    },
+    {
+      "title": "Writing So People Can Learn",
+      "tag": "Motion",
+      "description": "Training video with animated on-screen text and graphics.",
+      "loop": "assets/loops/writing-so-people-can-learn-final3.mp4",
+      "poster": "assets/loops/writing-so-people-can-learn-final3.jpg",
+      "full": "https://drive.google.com/file/d/1lSED96R9bV4TgG9sGzj_3uFJCfPdNyM-/view"
+    },
+    {
       "title": "SHOT Show Lightbox",
       "tag": "Graphics",
       "description": "Large-format lightbox graphic for SHOT Show 2026.",
@@ -144,8 +161,53 @@
       "tag": "Graphics",
       "description": "On-screen product menu for a booth display.",
       "image": "assets/graphics/20260813-104556.jpg"
+    },
+    {
+      "title": "Interactive Journey Roadmap",
+      "tag": "Graphics",
+      "description": "Preview of an interactive learning roadmap. Contact me for the interactive version.",
+      "image": "assets/graphics/interactive-journey-roadmap.jpg",
+      "fit": "contain",
+      "badge": "PREVIEW – INTERACTIVE",
+      "contact": "This is a preview. Contact me to see the interactive graphic."
+    },
+    {
+      "title": "4M Strategy Card",
+      "tag": "Graphics",
+      "description": "Strategy card illustrating the Map, Market, Modernize and Measure framework.",
+      "image": "assets/graphics/4m-strategy-card.jpg",
+      "fit": "contain"
+    },
+    {
+      "title": "Learning Experience Model",
+      "tag": "Graphics",
+      "description": "Illustrated model of the learning experience: engage, apply, reflect, share and feedback.",
+      "image": "assets/graphics/learning-experience-nucleus.jpg",
+      "fit": "contain"
+    },
+    {
+      "title": "Coffee & Conversations Flyer",
+      "tag": "Graphics",
+      "description": "Event flyer for an internal Coffee & Conversations series.",
+      "image": "assets/graphics/coffee-conversations-flyer.jpg",
+      "fit": "contain"
+    },
+    {
+      "title": "Keeper of the Flame Branding",
+      "tag": "Graphics",
+      "description": "Logo explorations for the Keeper of the Flame program.",
+      "image": "assets/graphics/keeper-of-the-flame-logos.jpg",
+      "fit": "contain"
+    },
+    {
+      "title": "Keeper of the Flame Badges",
+      "tag": "Graphics",
+      "description": "Award badge concepts for the Keeper of the Flame program.",
+      "image": "assets/graphics/keeper-of-the-flame-badges.jpg",
+      "fit": "contain"
     }
   ],
   "ai": [],
-  "heroPoster": "assets/loops/cops-40th-intro.jpg"
+  "heroPoster": "assets/loops/cops-40th-intro.jpg",
+  "email": "jmrichardsanimation@gmail.com"
 }

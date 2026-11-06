@@ -21,7 +21,7 @@ function card(item, i, dark) {
   return `<button class="win" data-i="${i}" data-set="${dark ? 'ai' : 'work'}">
     ${dark ? '' : `<div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot on"></span><span class="mono tag">${esc((item.tag || '').toUpperCase())}</span></div>`}
     <div class="${mediaClass}">${mediaHTML(item)}</div>
-    <div class="win-text">${label}<h3>${esc(item.title)}</h3>${dark ? '' : `<p>${esc(item.description)}</p>`}</div>
+    <div class="win-text">${label}<h3>${esc(item.title)}</h3>${item.badge ? `<div class="mono badge">${esc(item.badge)}</div>` : ''}${dark ? '' : `<p>${esc(item.description)}</p>`}</div>
   </button>`;
 }
 
@@ -80,6 +80,11 @@ function openViewer(item) {
   else if (item.loop) box.innerHTML = `<video src="${esc(item.loop)}" autoplay muted loop playsinline></video>`;
   else if (item.image) box.innerHTML = `<img src="${esc(item.image)}" alt="${esc(item.title)}">`;
   else box.innerHTML = '';
+  // Optional "contact me" note, e.g. for preview-only pieces
+  if (item.contact) {
+    const mail = `mailto:${data.email || ''}?subject=${encodeURIComponent('Portfolio: ' + (item.title || ''))}`;
+    box.insertAdjacentHTML('beforeend', `<div class="viewer-note"><p>${esc(item.contact)}</p><a class="btn btn-solid" href="${esc(mail)}">Contact me</a></div>`);
+  }
   $('viewerTitle').textContent = item.title || '';
   $('viewerDesc').textContent = item.description || '';
   const dlg = $('viewer');

@@ -122,3 +122,8 @@ dialog::backdrop{background:#000}
 @keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
 @media (prefers-reduced-motion:reduce){.win,.win:hover,.track,.rec{animation:none}html{scroll-behavior:auto}}
+
+/* Contact note shown in the viewer for preview-only pieces */
+.viewer-note{position:absolute;left:50%;bottom:max(24px,env(safe-area-inset-bottom));transform:translateX(-50%);z-index:2;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:12px 18px;width:max-content;max-width:calc(100vw - 32px);padding:14px 18px;border-radius:18px;background:rgba(20,22,26,.78);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.18);text-align:center}
+.viewer-note p{margin:0;font-size:16px;font-weight:500}
+.badge{display:inline-block;margin:0 0 8px;font-size:12px;letter-spacing:1.5px;color:var(--accent)}
