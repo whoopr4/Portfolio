@@ -53,10 +53,11 @@
     {
       "title": "Trade Show Booth Walk-Through",
       "tag": "Trade show",
-      "description": "Walk-through of the booth on the show floor.",
-      "loop": "assets/loops/booth-walk-through.mp4",
-      "poster": "assets/loops/booth-walk-through.jpg",
-      "full": "https://drive.google.com/file/d/1Zi69rS2rzQQgnYSx3tL93ntmOOVbIcK6/view"
+      "description": "Vertical walk-through guiding attendees across the show floor to the booth, with an animated floor map.",
+      "loop": "assets/loops/walk-through-final.mp4",
+      "poster": "assets/loops/walk-through-final.jpg",
+      "full": "https://drive.google.com/file/d/1y0tIdKoBuKQvCB_edDAps_TPh1pPCgNX/view",
+      "shape": "tall"
     },
     {
       "title": "Wedge SL Launch",
@@ -92,6 +93,15 @@
       "poster": "assets/loops/beyond-the-bait-social-teaser.jpg",
       "shape": "tall",
       "full": "https://drive.google.com/file/d/1ffApw3rdVOy24Eg0qeopXJFUduevBSSp/view"
+    },
+    {
+      "title": "Ducks Unlimited ProTac 2.0 Headlamp",
+      "tag": "Social",
+      "description": "Vertical product video for the Ducks Unlimited licensed ProTac 2.0 headlamp.",
+      "loop": "assets/loops/ducks-unlimited-protac-2-0-headlamp-final-sound.mp4",
+      "poster": "assets/loops/ducks-unlimited-protac-2-0-headlamp-final-sound.jpg",
+      "shape": "tall",
+      "full": "https://drive.google.com/file/d/154-NSI680LudiTtEw1t4w4B-H0rLUFDE/view"
     },
     {
       "title": "BCRF Wedge XT",
