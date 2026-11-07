@@ -229,7 +229,7 @@
     {
       "title": "Super Ship Shooters",
       "tool": "GAME · THREE.JS + CLAUDE",
-      "description": "A couch co-op space shooter for up to 8 players that I designed and directed, built with Claude in Three.js.",
+      "description": "Trailer for a couch co-op space shooter I designed and directed — up to 8 players, ship linking, a grappling claw and boss fights. Built with Claude in Three.js; music and overlays made with AI too.",
       "loop": "assets/loops/super-ship-shooters.mp4",
       "poster": "assets/loops/super-ship-shooters.jpg",
       "full": "assets/videos/super-ship-shooters-gameplay.mp4"
