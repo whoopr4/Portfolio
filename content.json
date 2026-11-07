@@ -217,7 +217,16 @@
       "fit": "contain"
     }
   ],
-  "ai": [],
+  "ai": [
+    {
+      "title": "AI Masking Tool",
+      "tool": "PHOTOSHOP + CLAUDE",
+      "description": "A Photoshop tool I built with Claude that automates product clipping paths using my own masking method.",
+      "loop": "assets/loops/ai-masking-tool.mp4",
+      "poster": "assets/loops/ai-masking-tool.jpg",
+      "full": "https://drive.google.com/file/d/1-vFIRt3R7Sj9p3j3gg3CV3GvBPoDmy6F/view"
+    }
+  ],
   "heroPoster": "assets/loops/cops-40th-intro.jpg",
   "email": "jmrichardsanimation@gmail.com"
 }
