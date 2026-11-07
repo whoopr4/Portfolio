@@ -225,6 +225,14 @@
       "loop": "assets/loops/ai-masking-tool.mp4",
       "poster": "assets/loops/ai-masking-tool.jpg",
       "full": "https://drive.google.com/file/d/1-vFIRt3R7Sj9p3j3gg3CV3GvBPoDmy6F/view"
+    },
+    {
+      "title": "Super Ship Shooters",
+      "tool": "GAME · THREE.JS + CLAUDE",
+      "description": "A couch co-op space shooter for up to 8 players that I designed and directed, built with Claude in Three.js.",
+      "loop": "assets/loops/super-ship-shooters.mp4",
+      "poster": "assets/loops/super-ship-shooters.jpg",
+      "full": "assets/videos/super-ship-shooters-gameplay.mp4"
     }
   ],
   "heroPoster": "assets/loops/cops-40th-intro.jpg",
